@@ -52,7 +52,6 @@ p {
   color: white;
   width: 40vw;
   top: 0;
-  right: -100vw; /* Prevents overflow */
   padding: 20px;
   transition: right 0.5s ease-in-out;
   backdrop-filter: blur(0px);
