@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  --font-family: "Epilogue", serif;
+  --clr-Soft-red: hsl(10, 79%, 65%);
+  --clr-Cyan: hsl(186, 34%, 60%);
+  --clr-Dark-brown: hsl(25, 47%, 15%);
+  --clr-Medium-brown: hsl(28, 10%, 53%);
+  --clr-Cream: hsl(27, 66%, 92%);
+  --clr-Very-pale-orange: hsl(33, 100%, 98%);
+  --f-size: 18px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  padding-top: 25px; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--f-size);
+  background-color: var(--clr-Cream);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: var(--clr-Medium-brown);
+}
+
+h1, h2, h3 {
+  color: var(--clr-Dark-brown);
+}
+
+.soft-red {
+  background-color: var(--clr-Soft-red);
+}
+
+.pad-ding {
+  margin-right: 1rem;
+}
